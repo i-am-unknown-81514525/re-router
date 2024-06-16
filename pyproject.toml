@@ -1,0 +1,48 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[build]
+package_dir = {""= "rerouter"}
+
+[project]
+description = "Routing request through a abstract layer with caching"
+name = "timeframe-event"
+version = "1.1.8"
+authors = [
+    {"name"="i-am-unknown-81514525", "email"="74453352+i-am-unknown-81514525@users.noreply.github.com"}
+]
+
+readme = 'README.md'
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+Homepage = "https://github.com/i-am-unknown-81514525/re-router"
+Issues = "https://github.com/i-am-unknown-81514525/re-router/issues"
+
+
+[tool.poetry]
+description = "Routing request through a abstract layer with caching"
+name = "re-router"
+version = "0.1.0"
+authors = ["i-am-unknown-81514525 <74453352+i-am-unknown-81514525@users.noreply.github.com>"]
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent"
+]
+packages = [
+    {include = 'rerouter'}
+]
+repository = "https://github.com/i-am-unknown-81514525/re-router"
+
+[tool.poetry.dependencies]
+python = '^3.10'
+
+
